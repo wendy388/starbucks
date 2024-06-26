@@ -16,5 +16,4 @@ searchInputEl.addEventListener('blur', function(){
   searchInputEl.setAttribute('placeholder','');
 });
 
-const badgeEl = document.querySelector('header .badges');
-const toTopEl = document.querySelector('#to-top');
+

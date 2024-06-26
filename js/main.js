@@ -1,4 +1,5 @@
-
+const badgeEl = document.querySelector('header .badges');
+const toTopEl = document.querySelector('#to-top');
 
 window.addEventListener('scroll', _.throttle(function() {
   console.log(window.scrollY);
